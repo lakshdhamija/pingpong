@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: lightgreen;
+    font-family: monospace;
+}
+
+.container {
+    position: relative;
+}
+
+.ball {
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    margin-left: -13px;
+    border-radius: 50%;
+    top: 25px;
+    left: 50%;
+    background-color: red;
+}
+
+.rod1, .rod2 {
+    position: fixed;
+    width: 250px;
+    height: 30px;
+    border-radius: 30px;
+    left: 40%;
+    text-align: center;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.rod1 {
+    background-color: blue;
+    top: 0;
+}
+
+.rod2 {
+    background-color: orange;
+    bottom: 0;
+}
